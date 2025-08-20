@@ -1,0 +1,15 @@
+# Indexación — Airbnb Tokyo
+
+## Objetivo
+Aplicar técnicas de indexación en pandas para seleccionar filas y columnas específicas del dataset de Airbnb.
+
+## Contenido
+- `array_a.csv`: columnas seleccionadas (host_name, host_since, neighbourhood, property_type, room_type, price).
+- `array_b.csv`: filas específicas (1, 50, 100–200, 499, 500, 605, 1500, 8000, 15000).
+- `array_c.csv`: filas + columnas (125, 252, 300–550, 700, 1000, 1250–última con columnas del host y reviews).
+- `array_d.csv`: dataset con 50 columnas seleccionadas en la Actividad 1.
+- `Indexacion.ipynb`: notebook con el proceso.
+
+## Dataset
+- Dataset original: `listings.csv.gz` (Tokyo).  
+  Si es muy pesado, usar `Tokyo_Japon.csv` (50 columnas) o un sample reducido.
